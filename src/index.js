@@ -47,6 +47,6 @@ app.use("/users", userRouter);
 app.use("/address", addressRouter);
 app.use("/cart", cartRouter);
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server Running in Port http://localhost:${process.env.PORT}`);
+app.listen(1212, () => {
+  console.log(`Server Running in Port http://localhost:${1212}`);
 });
